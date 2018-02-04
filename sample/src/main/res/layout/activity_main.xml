@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView android:id="@+id/info" android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="8dp"
+              android:layout_marginTop="8dp"
+              android:text="Press Apply Patch"
+              android:textSize="14sp"
+              app:layout_constraintLeft_toLeftOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              tools:text="sha1"/>
+
+    <Button android:id="@+id/patch" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Apply patch"
+            app:layout_constraintLeft_toLeftOf="@+id/info"
+            app:layout_constraintTop_toBottomOf="@+id/info"/>
+
+</android.support.constraint.ConstraintLayout>
