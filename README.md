@@ -13,6 +13,7 @@ adb push ./sample/sampledata/version2 /sdcard/Android/data/me.chen.bsdiff.sample
 ### 2. patch后SHA1和MD5是一样的
 
 ### 资料
+1. [Kotlin专题之集合操作符与应用](./sample/test.md)；
 
 [test](./sample/test.md)
 
