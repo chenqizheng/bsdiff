@@ -14,7 +14,7 @@ adb push ./sample/sampledata/version2 /sdcard/Android/data/me.chen.bsdiff.sample
 
 ### 资料
 
-[test](./sample/build.gradle)
+[test](./sample/test.md)
 
 [bsdiff](http://www.daemonology.net/bsdiff/)
 
